@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Completer javascript course tutorial project",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
+  },
+  "author": "Kazi Muktadir Ahmed",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "fractional": "^1.0.0",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "core-js": "^3.27.1",
+    "regenerator-runtime": "^0.13.11",
+    "sass": "^1.57.1"
+  }
+}
